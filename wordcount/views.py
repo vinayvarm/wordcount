@@ -19,7 +19,7 @@ def cnt(request):
     for word in wordlist:
         print(word,wordlist.count(word))
         if wordlist.count(word)>1:
-            dup.append(word)
+            dup.append(word);
     print(dup)
 
 
